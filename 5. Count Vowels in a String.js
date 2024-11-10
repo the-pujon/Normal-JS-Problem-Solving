@@ -1,5 +1,16 @@
 const countVowels = (str) => {
-  const vowels = { a: true, e: true, i: true, o: true, u: true };
+  const vowels = {
+    a: true,
+    e: true,
+    i: true,
+    o: true,
+    u: true,
+    A: true,
+    E: true,
+    I: true,
+    O: true,
+    U: true,
+  };
   let count = 0;
 
   for (let i = 0; i < str.length; i++) {
