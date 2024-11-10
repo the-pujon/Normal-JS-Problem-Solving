@@ -10,5 +10,6 @@ const countVowels = (str) => {
   return count;
 };
 
+//here time complexity is O(n) and space complexity is O(1)
 console.log(countVowels("hello")); // 2
 console.log(countVowels("world")); // 1
